@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: brightbits/ci:latest
+      - image: cimg/ruby # brightbits/ci:latest
         auth:
           username: brightbits
           password: $DOCKERHUB_PASSWORD
